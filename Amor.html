@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi Yani hermosa 💖</title>
+    <style>
+        body {
+            background-color: #ffd1dc;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .carta {
+            display: inline-block;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: transform 0.3s;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .carta:hover {
+            transform: scale(1.05);
+        }
+        .mensaje {
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #ffccdd;
+            border-radius: 10px;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .decoracion {
+            margin-top: 30px;
+            font-size: 24px;
+            color: red;
+        }
+        audio {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Para mi Yani hermosa 💖</h1>
+    <div class="carta" onclick="mostrarMensaje()">
+        📜 Haz clic aquí para abrir tu carta 💌
+    </div>
+    <div class="mensaje" id="mensaje">
+        <p>Mi niña, te extraño muchísimo. 💕
+        No hay un solo día en el que no piense en ti y en lo hermosa que eres. Siempre estaré aquí para apoyarte en todo y amarte con todo mi corazoncito. 💖
+        Eres mi alegría, mi paz y mi razón de ser. No importa la distancia ni el tiempo, mi amor por ti solo crece más y más. 🌹
+        Cuando miro las estrellas, sé que estamos conectados, porque cada una brilla tanto como tú en mi vida. ✨
+        Eres mi todo, mi presente y mi futuro. 💞 Te amo con cada latido de mi corazón. 💓</p>
+    </div>
+    <div class="decoracion">💖💌🌹💕💘💖</div>
+    <audio controls autoplay loop>
+        <source src="https://elnovato1l.github.io/mi-pagina-web/audio/música.m4a" type="audio/mp3" 
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <script>
+        function mostrarMensaje() {
+            document.getElementById("mensaje").style.display = "block";
+        }
+    </script>
+</body>
+</html>
